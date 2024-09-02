@@ -1,11 +1,16 @@
-# Multi Flex
+# SafeShare Backend
 
-Nest.js based file upload/download server implementation
+[Multiflex](https://github.com/vientorepublic/multiflex) based file storage server
 
 # Requirements
 
 - Node.js 20.x
 - MySQL or MariaDB Database Server
+
+# Key Featuers
+
+- i18n support (en-US, ko-KR, zh-CN)
+- Preview file information
 
 # SQL Tables
 
