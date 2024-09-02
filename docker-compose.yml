@@ -1,0 +1,39 @@
+services:
+  backend:
+    image: 'safeshare-backend:latest'
+    # build: .
+    container_name: 'safeshare-backend'
+    restart: 'always'
+    depends_on:
+      - 'mariadb'
+    networks:
+      - safeshare
+    ports:
+      - '3400:3000'
+    volumes:
+      - /media/SSD/safeshare_uploads:/usr/src/app/upload
+      - /media/SSD/safeshare_logs:/usr/src/app/logs
+    environment:
+      NODE_ENV: 'production'
+  mariadb:
+    container_name: mariadb
+    image: mariadb:latest
+    restart: always
+    networks:
+      - safeshare
+    ports:
+      - '3306:3306'
+    volumes:
+      # Mount Host Data
+      - /var/lib/mysql:/var/lib/mysql
+      - /etc/mysql/conf.d:/etc/mysql/conf.d
+    environment:
+      #THIS PASSWORD MUST BE CHANGED
+      #MARIADB_ROOT_PASSWORD: 'asdf1234@'
+      TZ: 'Asia/Seoul'
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+networks:
+  safeshare:
+    external: true

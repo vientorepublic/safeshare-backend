@@ -1,0 +1,7 @@
+{
+  "NOT_FOUND": "找不到文件。",
+  "UPLOAD_SUCCESS": "文件上传成功。",
+  "CAPTCHA_VALIDATION_FAILED": "验证码验证失败。",
+  "SIZE_LIMIT_EXCEEDED": "文件太大。",
+  "FILE_NOT_SELECTED": "未选择文件。"
+}

@@ -1,0 +1,7 @@
+{
+  "NOT_FOUND": "The file cannot be found.",
+  "UPLOAD_SUCCESS": "The file has been uploaded.",
+  "CAPTCHA_VALIDATION_FAILED": "Captcha verification failed.",
+  "SIZE_LIMIT_EXCEEDED": "File is too large.",
+  "FILE_NOT_SELECTED": "No file has been selected."
+}
