@@ -1,10 +1,10 @@
 {
-  "name": "multiflex",
+  "name": "safeshare-backend",
   "version": "0.0.1",
-  "description": "NestJS file upload/download server implementation example",
+  "description": "File storage server based on Multiflex",
   "author": "vientorepublic",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\"",
