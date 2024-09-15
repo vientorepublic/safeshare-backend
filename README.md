@@ -1,5 +1,8 @@
 # SafeShare Backend
 
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![Nodejs CI](https://github.com/vientorepublic/safeshare-backend/actions/workflows/nodejs.yml/badge.svg)](https://github.com/vientorepublic/safeshare-backend/actions/workflows/nodejs.yml)
+
 [Multiflex](https://github.com/vientorepublic/multiflex) based file storage server
 
 # Requirements
